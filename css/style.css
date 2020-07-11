@@ -66,9 +66,9 @@ img {
 .showcase-top img {
   width: 170px;
   position: absolute;
-  top: 50%;
+  top: 30%;
   left: 3%;
-  transform: translate(0, -50%);
+  transform: translate(0);
 }
 
 .showcase-top a {
@@ -106,6 +106,27 @@ img {
   margin: 0 0 2rem;
 }
 
+form {
+  display: flex;
+  width: 80%;
+  justify-content: center;
+}
+
+.email-form input[type='email'] {
+  height: 5.4rem;
+  width: 50%;
+}
+
+.email-form input[type='email']::placeholder {
+  font-size: 1.5rem;
+  padding-left: 10px;
+}
+
+p.small-text {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
 /* Buttons */
 .btn {
   display: inline-block;
@@ -140,4 +161,8 @@ img {
   font-size: 1rem;
   padding: 0.8rem 1.3rem;
   text-transform: uppercase;
+}
+
+.btn-icon {
+  margin-left: 1rem;
 }

@@ -137,6 +137,39 @@ input[type='email'] {
   padding-left: 0.625rem;
 }
 
+/* Ways to watch */
+.how-to-watch {
+  border-bottom: 8px solid #222;
+}
+
+.how-to-tv,
+.how-to-download,
+.how-to-everywhere {
+  padding: 50px 5%;
+}
+
+.how-to-text {
+  text-align: center;
+}
+
+.how-to-text h1 {
+  font-size: 1.625rem;
+  margin-bottom: 8px;
+}
+
+.how-to-text h2 {
+  font-size: 1.125rem;
+}
+
+.how-to-download .how-to-image img,
+.how-to-everywhere .how-to-image img {
+  width: 75%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+}
+
 /* Buttons */
 .btn {
   display: inline-block;

@@ -109,7 +109,8 @@ img {
   margin: 1rem 0;
 }
 
-.showcase-content .email-form {
+.showcase-content .email-form,
+.faq-content .email-form {
   max-width: 450px;
   margin: 0 auto;
 }
@@ -138,7 +139,8 @@ input[type='email'] {
 }
 
 /* Ways to watch */
-.how-to-watch {
+.how-to-watch,
+.faq {
   border-bottom: 8px solid #222;
 }
 
@@ -148,11 +150,14 @@ input[type='email'] {
   padding: 50px 5%;
 }
 
-.how-to-text {
+.how-to-text,
+.faq-content h1,
+.faq-content .email-form {
   text-align: center;
 }
 
-.how-to-text h1 {
+.how-to-text h1,
+.faq-content h1 {
   font-size: 1.625rem;
   margin-bottom: 8px;
 }
@@ -168,6 +173,59 @@ input[type='email'] {
   margin-left: auto;
   margin-right: auto;
   margin-top: 2rem;
+}
+
+/* FAQ */
+.faq-content {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.faq-list {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.faq-list li {
+  background: #303030;
+  width: 100%;
+  font-size: 1.125rem;
+  color: #fff;
+  padding-top: 0.9rem;
+  padding-bottom: 0.9rem;
+  padding-left: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Footer */
+.footer-wrapper {
+  padding: 50px 5%;
+}
+
+.footer-wrapper a {
+  color: #999;
+  font-size: 0.9rem;
+}
+
+.footer-wrapper p {
+  margin-bottom: 1.5rem;
+}
+
+.footer-wrapper .footer-cols {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 2rem;
+}
+
+.footer li {
+  line-height: 1.9;
+}
+
+.globe {
+  display: inline-block;
+  margin-top: 1.25rem;
+  border: 1px #fff solid;
+  padding: 1rem;
 }
 
 /* Buttons */
@@ -204,6 +262,10 @@ input[type='email'] {
   font-size: 1rem;
   padding: 0.8rem 1.3rem;
   text-transform: uppercase;
+}
+
+.btn-icon {
+  margin-left: 1rem;
 }
 
 /* 
@@ -291,10 +353,6 @@ form {
   font-size: 0.9rem;
 }
 
-.footer p {
-  margin-bottom: 1.5rem;
-}
-
 .footer .footer-cols {
   margin: 0 auto;
   display: grid;
@@ -307,10 +365,6 @@ form {
 } */
 
 /* 
-.btn-icon,
-.btn-icon-2 {
-  margin-left: 1rem;
-}
 
 @media (max-width: 960px) {
   .showcase {
